@@ -1,30 +1,35 @@
-.Header {
+body {
+    background-color: rgb(225, 225, 225);
+
+}
+
+.header {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     background-color: rgb(241, 241, 241);
     
 } 
 
-.Content_text {
-    border: 1px solid black;width: 500px;   
+.content_text {
+    width: 500px;  
+}
+
+.contedor-general {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    
     
 }
 
-#Contedor_general {
-    background-color: aquamarine;
-    border: 1px solid black;
-    
-    
-}
-
-.My_firs_photo {
+.my-firs-photo {
     background-color: rgb(255, 255, 255);
     display: flex;
     box-sizing: border-box;
     padding: 10px;
     width: 500px;
-    height: 50px;
     justify-content: space-between;
     align-items: center;
     
@@ -32,23 +37,21 @@
 
 }
 
-.box1 {
+.post {
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    flex-direction: column;
 
 }
 .photo {
     width: 500px;
-    height: 400px;
+    height: 325px;
+    object-fit: cover;
 }
 
-.Final_text {
-    display: flex;
+.final-text {
     box-sizing: border-box;
     padding: 10px;
-    width: 500px;
-    height: 50px;
-    border: 1px solid black;width: 500px; 
 
 }
